@@ -1,0 +1,6 @@
+Используются текстуры от модели CH1_L4
+IM_CH1_L4_Box 
+IM_M3_CH1_Labels 
+IM_M3_CH1_Light 
+IM_TLight_body 
+IM_TrafficLight_Lamp
