@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RotatableObject : AnimationObject
+public class RotatableCap : AnimationObject
 {
     private bool _closed = true;
     public override void PlayAnimation()
@@ -14,8 +14,8 @@ public class RotatableObject : AnimationObject
         Collider.enabled = false;
         if (_closed)
         {
-            int x = -90;
-            while (x >= -180)
+            int x = 0;
+            while (x >= -90)
             {
                 transform.localRotation = Quaternion.Euler(0, x, 0);
                 x--;
@@ -25,8 +25,8 @@ public class RotatableObject : AnimationObject
         }
         else
         {
-            int x = -180;
-            while (x <= -90)
+            int x = -90;
+            while (x <= 0)
             {
                 transform.localRotation = Quaternion.Euler(0, x, 0);
                 x++;
