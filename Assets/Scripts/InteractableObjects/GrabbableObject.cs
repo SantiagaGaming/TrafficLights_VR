@@ -12,6 +12,7 @@ namespace AosSdk.Examples
     {
         public UnityAction<string> OnObjectGrabbedIn;
         public UnityAction<string> OnObjectGrabbedOut;
+        protected bool _changable = false;
 
         [SerializeField] private Transform _ugrabPos;
         [field: SerializeField] public GrabType GrabType { get; set; }
@@ -32,11 +33,22 @@ namespace AosSdk.Examples
         }
         public void OnUnGrabbed(InteractHand interactHand)
         {
+            if (_changable)
+                return;
             OnObjectGrabbedOut?.Invoke(objectName);
             GetComponent<Rigidbody>().isKinematic = true;
             transform.position = _ugrabPos.position;
             transform.rotation = _ugrabPos.rotation;
             GetComponent<Collider>().isTrigger = true;
+        }
+        public void OnUnGrabbed(Transform newPos)
+        {
+            _changable = true;
+            OnObjectGrabbedOut?.Invoke(objectName);
+            GetComponent<Rigidbody>().isKinematic = true;
+            transform.position = newPos.position;
+            transform.rotation = newPos.rotation;
+            GetComponent<Collider>().enabled = false;
         }
     }
 }
