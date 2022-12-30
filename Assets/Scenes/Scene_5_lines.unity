@@ -175,7 +175,8 @@ MonoBehaviour:
   - {fileID: 585527270}
   - {fileID: 790960730}
   helperPos: {fileID: 0}
-  objectName: 
+  objectName: bolt2
+  _objectHelperName: "\u0411\u043E\u043B\u0442"
 --- !u!65 &21572791
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -634,6 +635,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71f909d3319cd5a428b28984956559e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineObjects:
+  - {fileID: 294674447}
+  helperPos: {fileID: 0}
+  objectName: changeableLamp3
+  _objectHelperName: "\u043B\u0430\u043C\u043F\u043E\u0447\u043A\u0430"
   <GrabType>k__BackingField: 1
   <GrabAnchor>k__BackingField: {fileID: 622485645}
 --- !u!114 &294674447
@@ -1204,9 +1210,8 @@ MonoBehaviour:
   outlineObjects:
   - {fileID: 498307484}
   helperPos: {fileID: 0}
-  objectName: 
-  _grayMat: {fileID: 0}
-  _yellowMat: {fileID: 0}
+  objectName: cap4
+  _objectHelperName: "\u041A\u0440\u044B\u0448\u043A\u0430"
 --- !u!114 &498307484
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2078,6 +2083,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8a784c2df8ecb54eabd9cc8b18b27b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineObjects:
+  - {fileID: 642873022}
+  - {fileID: 642873022}
+  helperPos: {fileID: 0}
+  objectName: screw4
+  _objectHelperName: "\u0413\u0430\u0439\u043A\u0430"
 --- !u!65 &642873024
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2477,9 +2488,8 @@ MonoBehaviour:
   outlineObjects:
   - {fileID: 787838244}
   helperPos: {fileID: 0}
-  objectName: 
-  _grayMat: {fileID: 0}
-  _yellowMat: {fileID: 0}
+  objectName: cap3
+  _objectHelperName: "\u041A\u0440\u044B\u0448\u043A\u0430"
 --- !u!114 &787838244
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2756,7 +2766,8 @@ MonoBehaviour:
   - {fileID: 7559998706655917579}
   - {fileID: 1362796772157116252}
   helperPos: {fileID: 0}
-  objectName: 
+  objectName: bolt1
+  _objectHelperName: "\u0411\u043E\u043B\u0442"
 --- !u!65 &839547716
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3140,6 +3151,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8a784c2df8ecb54eabd9cc8b18b27b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineObjects:
+  - {fileID: 986815204}
+  helperPos: {fileID: 0}
+  objectName: screw2
+  _objectHelperName: "\u0413\u0430\u0439\u043A\u0430"
 --- !u!65 &986815206
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3252,6 +3268,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71f909d3319cd5a428b28984956559e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineObjects:
+  - {fileID: 988914276}
+  helperPos: {fileID: 0}
+  objectName: changeableLamp2
+  _objectHelperName: "\u041B\u0430\u043C\u043F\u043E\u0447\u043A\u0430"
   <GrabType>k__BackingField: 1
   <GrabAnchor>k__BackingField: {fileID: 726056255}
 --- !u!114 &988914276
@@ -3947,7 +3968,8 @@ MonoBehaviour:
   - {fileID: 4677665157093621915}
   - {fileID: 2705161653983303161}
   helperPos: {fileID: 0}
-  objectName: 
+  objectName: patron1
+  _objectHelperName: "\u041F\u0430\u0442\u0440\u043E\u043D"
 --- !u!65 &1124771682
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4215,6 +4237,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71f909d3319cd5a428b28984956559e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineObjects:
+  - {fileID: 1170585772}
+  helperPos: {fileID: 0}
+  objectName: changeableLamp1
+  _objectHelperName: "\u041B\u0430\u043C\u043F\u043E\u0447\u043A\u0430"
   <GrabType>k__BackingField: 1
   <GrabAnchor>k__BackingField: {fileID: 384917986}
 --- !u!114 &1170585772
@@ -4370,6 +4397,7 @@ MonoBehaviour:
   - {fileID: 919132148982851248}
   helperPos: {fileID: 1535123153}
   objectName: bag
+  _objectHelperName: "\u0421\u0443\u043C\u043A\u0430"
   _bagOpen: {fileID: 919132149168523506}
   _bagClose: {fileID: 919132148982851247}
 --- !u!65 &1175457498
@@ -4480,6 +4508,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8a784c2df8ecb54eabd9cc8b18b27b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineObjects:
+  - {fileID: 1235337622}
+  helperPos: {fileID: 0}
+  objectName: screw3
+  _objectHelperName: "\u0413\u0430\u0439\u043A\u0430"
 --- !u!65 &1235337624
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4594,7 +4627,8 @@ MonoBehaviour:
   - {fileID: 1565106255}
   - {fileID: 1275240053}
   helperPos: {fileID: 0}
-  objectName: 
+  objectName: patron3
+  _objectHelperName: "\u041F\u0430\u0442\u0440\u043E\u043D"
 --- !u!65 &1237025541
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4976,6 +5010,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71f909d3319cd5a428b28984956559e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineObjects:
+  - {fileID: 1353753375}
+  helperPos: {fileID: 0}
+  objectName: changeableLamp4
+  _objectHelperName: "\u041B\u0430\u043C\u043F\u043E\u0447\u043A\u0430"
   <GrabType>k__BackingField: 1
   <GrabAnchor>k__BackingField: {fileID: 2097762295}
 --- !u!114 &1353753375
@@ -5168,87 +5207,6 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!1 &1417280897
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1417280898}
-  - component: {fileID: 1417280900}
-  - component: {fileID: 1417280899}
-  m_Layer: 0
-  m_Name: Grey
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1417280898
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1417280897}
-  m_LocalRotation: {x: 0.000000021855694, y: -0.00000004371139, z: 9.553427e-16, w: 1}
-  m_LocalPosition: {x: -0.057409763, y: 0, z: 0.0034148693}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 543450653689389731}
-  m_RootOrder: 46
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &1417280899
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1417280897}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 29d7fe39ae08f35449203fb1554c8336, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1417280900
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1417280897}
-  m_Mesh: {fileID: -8339864752264422714, guid: f75050fe3bfbfca4691c45c1cb640ae5, type: 3}
 --- !u!1 &1467531538
 GameObject:
   m_ObjectHideFlags: 0
@@ -6082,7 +6040,8 @@ MonoBehaviour:
   - {fileID: 288075674}
   - {fileID: 322712374}
   helperPos: {fileID: 0}
-  objectName: 
+  objectName: bolt3
+  _objectHelperName: "\u0411\u043E\u043B\u0442"
 --- !u!65 &1612774735
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6362,9 +6321,8 @@ MonoBehaviour:
   outlineObjects:
   - {fileID: 1712173689}
   helperPos: {fileID: 0}
-  objectName: 
-  _grayMat: {fileID: 0}
-  _yellowMat: {fileID: 0}
+  objectName: cap2
+  _objectHelperName: "\u041A\u0440\u044B\u0448\u043A\u0430"
 --- !u!114 &1712173689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6512,7 +6470,8 @@ MonoBehaviour:
   - {fileID: 1740128018}
   - {fileID: 1571581984}
   helperPos: {fileID: 0}
-  objectName: 
+  objectName: patron4
+  _objectHelperName: "\u041F\u0430\u0442\u0440\u043E\u043D"
 --- !u!65 &1738379866
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6678,7 +6637,8 @@ MonoBehaviour:
   - {fileID: 307749296}
   - {fileID: 1577399549}
   helperPos: {fileID: 0}
-  objectName: 
+  objectName: patron2
+  _objectHelperName: "\u041F\u0430\u0442\u0440\u043E\u043D"
 --- !u!65 &1750276567
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7609,9 +7569,8 @@ MonoBehaviour:
   outlineObjects:
   - {fileID: 2024618673}
   helperPos: {fileID: 0}
-  objectName: 
-  _grayMat: {fileID: 1417280897}
-  _yellowMat: {fileID: 5291224893654507318}
+  objectName: cap1
+  _objectHelperName: "\u041A\u0440\u044B\u0448\u043A\u0430"
 --- !u!114 &2024618673
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7695,7 +7654,8 @@ MonoBehaviour:
   - {fileID: 571186240}
   - {fileID: 1253934245}
   helperPos: {fileID: 0}
-  objectName: 
+  objectName: bolt4
+  _objectHelperName: "\u0411\u043E\u043B\u0442"
 --- !u!65 &2030463658
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9793,7 +9753,6 @@ Transform:
   - {fileID: 21572789}
   - {fileID: 1612774733}
   - {fileID: 2030463656}
-  - {fileID: 1417280898}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
@@ -10530,6 +10489,7 @@ MonoBehaviour:
   - {fileID: 253950354}
   helperPos: {fileID: 1950629102}
   objectName: key
+  _objectHelperName: "\u041A\u043B\u044E\u0447"
   _ugrabPos: {fileID: 159011089}
   <GrabType>k__BackingField: 1
   <GrabAnchor>k__BackingField: {fileID: 1198567962}
@@ -11570,6 +11530,7 @@ MonoBehaviour:
   - {fileID: 1378590456191785394}
   helperPos: {fileID: 886621351}
   objectName: lamp
+  _objectHelperName: "\u041B\u0430\u043C\u043F\u043E\u0447\u043A\u0430"
   _ugrabPos: {fileID: 740471364}
   <GrabType>k__BackingField: 1
   <GrabAnchor>k__BackingField: {fileID: 978871863}
@@ -19514,13 +19475,28 @@ GameObject:
   - component: {fileID: 3272942997814549408}
   - component: {fileID: 5058144531133682462}
   - component: {fileID: 759228182335449706}
+  - component: {fileID: 5291224893654507319}
   m_Layer: 0
   m_Name: Light_Glass_E
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
+--- !u!114 &5291224893654507319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5291224893654507318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20f81ffafe13c8941b09b0a4721a8900, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _onMaterial: {fileID: 2100000, guid: 523a4441df4981b4a81d412242d96dda, type: 2}
+  _offMaterial: {fileID: 2100000, guid: 84a104c4fdbf8e94f99acc6b0c95653d, type: 2}
 --- !u!33 &5295461844067404944
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -28252,6 +28228,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8a784c2df8ecb54eabd9cc8b18b27b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outlineObjects:
+  - {fileID: 8328581890292821744}
+  helperPos: {fileID: 0}
+  objectName: screw1
+  _objectHelperName: "\u0413\u0430\u0439\u043A\u0430"
 --- !u!65 &8328581890292821743
 BoxCollider:
   m_ObjectHideFlags: 0

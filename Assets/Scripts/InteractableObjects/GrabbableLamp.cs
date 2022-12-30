@@ -6,14 +6,14 @@ using UnityEngine;
 
 namespace AosSdk.Examples
 {
-    public class GrabbableLamp: MonoBehaviour, IGrabbable, IClickAble
+    public class GrabbableLamp: BaseObject, IGrabbable
     {
         [field: SerializeField] public GrabType GrabType { get; set; }
 
         [field: SerializeField] public Transform GrabAnchor { get; set; }
 
         public bool IsGrabbable { get; set; } = true;
-        public bool IsClickable { get; set; } = true;
+
         public bool IsGrabbed { get; set; }
 
         public void OnGrabbed(InteractHand interactHand)
@@ -28,9 +28,5 @@ namespace AosSdk.Examples
             
         }
 
-        public void OnClicked(InteractHand interactHand)
-        {
-           
-        }
     }
 }

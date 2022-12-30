@@ -1,6 +1,7 @@
 using AosSdk.Examples;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using System.Resources;
 using UnityEditor;
 using UnityEngine;
@@ -19,6 +20,20 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         StartCoroutine(Delay());
+    }
+    public BaseObject GetObjectByname(string name)
+    {
+       BaseObject temp = _baseObjects.FirstOrDefault(b => b.ObjectName == name);
+        if (temp != null)
+            return temp;
+        else return null;
+    }
+    public void DeactivateAllObjects()
+    {
+        foreach (var obj in _baseObjects)
+        {
+            obj.EnableObject(false);
+        }
     }
     public void AddBaseObject(BaseObject baseObject)
     {

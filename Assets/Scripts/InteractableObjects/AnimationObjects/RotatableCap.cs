@@ -5,8 +5,6 @@ using UnityEngine;
 public class RotatableCap : AnimationObject
 {
     private bool _closed = true;
-    [SerializeField] private GameObject _grayMat;
-    [SerializeField] private GameObject _yellowMat;
     public override void PlayAnimation()
     {
         StartCoroutine(PlayScriptableAnimation());
@@ -35,8 +33,6 @@ public class RotatableCap : AnimationObject
                 yield return new WaitForSeconds(0.01f);
             }
             _closed = true;
-            _grayMat.SetActive(false);
-            _yellowMat.SetActive(true);
         }
         Collider.enabled = true;
     }

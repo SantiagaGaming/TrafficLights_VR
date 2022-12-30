@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RotatableScrew : MonoBehaviour,IAnimationObject
+public class RotatableScrew : BaseObject,IAnimationObject
 {
     private bool _closed = true;
     public void PlayAnimation()
